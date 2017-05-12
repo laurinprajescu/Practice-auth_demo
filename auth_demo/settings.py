@@ -131,7 +131,7 @@ AUTHENTICATION_BACKENDS = (
 
 # Stripe environment variables
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_2FKvDfMFtVQSyYQ6jUbwVnm6')
-STRIPE_SECRET = os.getenv('STRIPE_SECRET', '<sk_test_WisNyom7MSIM6MVcHdj3qP0z>')
+STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_WisNyom7MSIM6MVcHdj3qP0z')
 
 STATICFILES_DIRS = (
    os.path.join(BASE_DIR, "static"),
